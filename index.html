@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="sam - 프로필 링크">
+    <meta property="og:description" content="your future starts today">
+    <meta property="og:image" content="cat.png">
+    <title>sam - 프로필 링크</title>
+    <style>
+      @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+      * {
+          font-family: "Pretendard",serif;
+      }
+      body {
+        background-color: #242826;
+        /* background-color: #3f5449; */
+      }
+      .profile {
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+
+        background-color: #3f5449;
+        border-radius: 100%;
+        border : 2px solid #3f5449;
+
+        background-image: url('cat.png');
+        background-position: center;
+        background-size: cover;
+      }
+      .main {
+        color: white;
+        font-size: 20px;
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      .sub {
+        color: white;
+        font-size: 14px;
+
+        margin-top: 0px;
+        margin-bottom: 30px;
+      }
+      .wrap {
+        width: 300px;
+        margin: auto;
+      }
+      .wrap > a {
+        width: 300px;
+        height: 50px;
+
+        background-color: white;
+        border-radius: 8px;
+
+        margin-bottom: 10px;
+
+        font-size: 14px;
+        font-weight: bold;
+        color: #3f5449;
+
+        text-decoration: none;
+
+        box-shadow: 3px 3px 5px 0px black;
+      }
+      .wrap > a:hover{
+        background-color: #f2f2f2;
+        font-size: 16px;
+      }
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+</head>
+<body>
+  <div class="wrap center">
+    <div class="profile"></div>  
+    <h1 class="main">sam</h1>
+    <p class="sub">안녕하세요..!</p>
+    <a class="center" target="_blank" href="https://github.com/samii32/cheeese">github1</a>
+    <a class="center" target="_blank" href="https://github.com/samii32/server">github2</a>
+    <a class="center" target="_blank" href="https://blog.naver.com/smile_666">Blog</a>
+  </div>  
+</body>
+</html>
